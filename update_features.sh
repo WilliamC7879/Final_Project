@@ -1,8 +1,8 @@
 #!/bin/sh
 
-cd ..
-mv extracted_data.pkl Final_Project/Data/
-cd Final_Project
+cd ~/Downloads
+mv extracted_data.pkl ~/Desktop/BWSI/Final_Project/Data/
+cd ~/Desktop/BWSI/Final_Project
 git add .
 git commit -m "updating features..."
 git push
